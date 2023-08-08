@@ -8,7 +8,6 @@ import eu.mistcloud.template.java.businesslogic.Weather;
 public class App {
 
     static void handleWeatherAction(byte[] payloadBytes, JSONObject envelope) {
-
         // Optionally, we can use the envelope to access event metadata
         String messageId = envelope.getString("messageId");
         String traceId = envelope.getString("traceId");
