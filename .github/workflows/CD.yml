@@ -27,4 +27,4 @@ jobs:
         run: |
           git checkout ${GITHUB_REF#refs/heads/}
           git remote add mist ${{ secrets.MIST_SERVICE_REPO }}
-          git push mist main:main
+          git push mist main:main --force
