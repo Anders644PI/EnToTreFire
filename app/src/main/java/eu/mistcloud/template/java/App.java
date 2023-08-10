@@ -4,6 +4,7 @@ import org.json.JSONObject;
 
 import eu.mistcloud.tools.java.Mist;
 import eu.mistcloud.template.java.businesslogic.Weather;
+import eu.mistcloud.template.java.businesslogic.Danish;
 
 public class App {
 
@@ -14,12 +15,16 @@ public class App {
 
         // We can access the event body by converting it to a string
         Weather.handleWeatherGreeting(new String(payloadBytes));
+    }
 
+    static void handleDanishAction(byte[] payloadBytes, JSONObject envelope) {
+        Danish.handleDanishGreeting(new String(payloadBytes));
     }
 
     public static void main(String[] args) {
         Mist.service(args)
                 .handle("weatherAction", App::handleWeatherAction)
+                .handle("danishAction", App::handleDanishAction)
                 .init(() -> System.out.println("Init!"));
     }
 }
