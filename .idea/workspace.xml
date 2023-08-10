@@ -12,8 +12,13 @@
     </list>
 =======
   <component name="ChangeListManager">
-    <list default="true" id="2064abf6-c14a-4d78-8fcb-0b64c813a9f4" name="Changes" comment="" />
->>>>>>> 293d94e (Commit before rebasing remote onto local main)
+    <list default="true" id="2064abf6-c14a-4d78-8fcb-0b64c813a9f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/EnToTreFire.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,8 +122,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691656888712</updated>
-      <workItem from="1691656893729" duration="1463000" />
->>>>>>> 293d94e (Commit before rebasing remote onto local main)
+      <workItem from="1691656893729" duration="2591000" />
     </task>
     <servers />
   </component>
