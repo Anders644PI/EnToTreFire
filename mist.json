@@ -1,11 +1,9 @@
 {
   "hooks": {
-<<<<<<< HEAD
     "main/greeting": "greet"
-=======
     "main/hello": "englishAction",
     "main/hola": "spanishAction",
     "main/intermediate": "intermediateAction"
->>>>>>> b337766 (Pull Java service template)
+    "main/weather": "weatherAction"
   }
 }
