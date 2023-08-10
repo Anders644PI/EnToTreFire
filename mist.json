@@ -6,5 +6,10 @@
     "main/intermediate": "intermediateAction",
     "main/weather": "weatherAction",
     "main/hej": "danishAction"
+    "main/greeting": "greet"
+    "main/hello": "englishAction",
+    "main/hola": "spanishAction",
+    "main/intermediate": "intermediateAction"
+    "main/weather": "weatherAction"
   }
 }
