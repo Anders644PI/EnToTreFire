@@ -5,7 +5,6 @@ import org.json.JSONObject;
 import eu.mistcloud.tools.java.Mist;
 import eu.mistcloud.template.java.businesslogic.Weather;
 import eu.mistcloud.template.java.businesslogic.Danish;
-import eu.mistcloud.template.java.businesslogic.Weather;
 
 public class App {
 
